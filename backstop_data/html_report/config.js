@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Home_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Home_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Home_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Home_0_document_0_phone.png",
         "label": "PGA Home",
@@ -21,7 +21,7 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.00",
-          "analysisTime": 136
+          "analysisTime": 143
         }
       },
       "status": "pass"
@@ -29,7 +29,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Play_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Play_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Play_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Play_0_document_0_phone.png",
         "label": "PGA Play",
@@ -53,7 +53,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Play_State_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Play_State_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Play_State_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Play_State_0_document_0_phone.png",
         "label": "PGA Play State",
@@ -77,7 +77,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Play_State_city_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Play_State_city_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Play_State_city_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Play_State_city_0_document_0_phone.png",
         "label": "PGA Play State/city",
@@ -101,7 +101,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Play_State_city_facility_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Play_State_city_facility_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Play_State_city_facility_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Play_State_city_facility_0_document_0_phone.png",
         "label": "PGA Play State/city/facility",
@@ -125,7 +125,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Learn_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Learn_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Learn_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Learn_0_document_0_phone.png",
         "label": "PGA Learn",
@@ -149,7 +149,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Events_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Events_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Events_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Events_0_document_0_phone.png",
         "label": "PGA Events",
@@ -165,7 +165,8 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
+          "misMatchPercentage": "0.10",
+          "analysisTime": 156
         }
       },
       "status": "pass"
@@ -173,7 +174,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Events_PGA_TOUR_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Events_PGA_TOUR_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Events_PGA_TOUR_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Events_PGA_TOUR_0_document_0_phone.png",
         "label": "PGA Events PGA TOUR",
@@ -189,15 +190,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "1.12",
+          "analysisTime": 271
+        },
+        "diffImage": "../bitmaps_test/20191021-095629/failed_diff_backstop_default_PGA_Events_PGA_TOUR_0_document_0_phone.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Events_LPGA_TOUR_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Events_LPGA_TOUR_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Events_LPGA_TOUR_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Events_LPGA_TOUR_0_document_0_phone.png",
         "label": "PGA Events LPGA TOUR",
@@ -213,15 +216,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "1.21",
+          "analysisTime": 276
+        },
+        "diffImage": "../bitmaps_test/20191021-095629/failed_diff_backstop_default_PGA_Events_LPGA_TOUR_0_document_0_phone.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Events_Champions_TOUR_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Events_Champions_TOUR_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Events_Champions_TOUR_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Events_Champions_TOUR_0_document_0_phone.png",
         "label": "PGA Events Champions TOUR",
@@ -237,15 +242,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "1.05",
+          "analysisTime": 233
+        },
+        "diffImage": "../bitmaps_test/20191021-095629/failed_diff_backstop_default_PGA_Events_Champions_TOUR_0_document_0_phone.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Events_Korn_Ferry_TOUR_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Events_Korn_Ferry_TOUR_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Events_Korn_Ferry_TOUR_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Events_Korn_Ferry_TOUR_0_document_0_phone.png",
         "label": "PGA Events Korn Ferry TOUR",
@@ -269,7 +276,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Stories_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Stories_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Stories_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Stories_0_document_0_phone.png",
         "label": "PGA Stories",
@@ -293,13 +300,39 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Stories_ALL_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Stories_ALL_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Stories_ALL_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Stories_ALL_0_document_0_phone.png",
         "label": "PGA Stories ALL",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
         "url": "https://beta.pga.com/stories/all",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -24
+          },
+          "misMatchPercentage": "32.80",
+          "analysisTime": 175
+        },
+        "diffImage": "../bitmaps_test/20191021-095629/failed_diff_backstop_default_PGA_Stories_ALL_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_PGA_Stories_ARCHIVE_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Stories_ARCHIVE_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_PGA_Stories_ARCHIVE_0_document_0_phone.png",
+        "label": "PGA Stories ARCHIVE",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://beta.pga.com/stories/archive",
         "referenceUrl": "",
         "expect": 0,
         "viewportLabel": "phone",
@@ -316,33 +349,8 @@ report({
     },
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_PGA_Stories_ARCHIVE_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Stories_ARCHIVE_0_document_0_phone.png",
-        "selector": "document",
-        "fileName": "backstop_default_PGA_Stories_ARCHIVE_0_document_0_phone.png",
-        "label": "PGA Stories ARCHIVE",
-        "requireSameDimensions": true,
-        "misMatchThreshold": 0.1,
-        "url": "https://beta.pga.com/stories/archive",
-        "referenceUrl": "",
-        "expect": 0,
-        "viewportLabel": "phone",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "misMatchPercentage": "0.00",
-          "analysisTime": 131
-        }
-      },
-      "status": "pass"
-    },
-    {
-      "pair": {
         "reference": "../bitmaps_reference/backstop_default_PGA_Shop_0_document_0_phone.png",
-        "test": "../bitmaps_test/20191021-084314/backstop_default_PGA_Shop_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191021-095629/backstop_default_PGA_Shop_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_PGA_Shop_0_document_0_phone.png",
         "label": "PGA Shop",
